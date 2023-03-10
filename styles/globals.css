@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.detail-position h1,  
+.detail-position h2 {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.detail-position h1{
+    font-size: 18px;
+}  
+
+.detail-position h2 {
+    font-size: 16px;
+}
+
+.detail-position p {
+    margin-bottom: 10px;
+}
+
+.detail-position a {
+   color: rgb(59 130 246 / var(--tw-text-opacity));
+}
+
+.detail-position ul {
+    display: block;
+    list-style-type: disc;
+    margin-top: 1em;
+    margin-bottom: 1 em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+}
